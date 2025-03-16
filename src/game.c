@@ -22,7 +22,7 @@ void	begin_game(t_game *game)
 
 int	close_game(t_game *game)
 {
-	ft_printf("%sCome on, it's not that hard! 😆 \n%s", MAGENTA, RESET);
+	ft_printf("%sTrust me, you can do it! \n%s", MAGENTA, RESET);
 	free_mlx(game);
 	free_game(&game);
 	exit (0);
@@ -31,7 +31,7 @@ int	close_game(t_game *game)
 
 int	game_won(t_game *game)
 {
-	ft_printf("%sCongrats! You won the game! 🥳 \n%s", MAGENTA, RESET);
+	ft_printf("%sWinner! Great job!\n%s", MAGENTA, RESET);
 	free_mlx(game);
 	free_game(&game);
 	exit (0);

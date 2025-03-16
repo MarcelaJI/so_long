@@ -1,0 +1,276 @@
+: 1742122390:0;ls
+: 1742122403:0;make
+: 1742122545:0;./so_long maps/map_valid_0.ber
+: 1742122585:0;clear
+: 1742122586:0;ls
+: 1742122625:0;./so_long maps/map_valid_1.ber
+: 1742122654:0;sudo ./so_long maps/map_valid_1.ber
+: 1742122690:0;cleaar
+: 1742122697:0;clear
+: 1742122708:0;./so_long maps/map_valid_0.ber
+: 1742122790:0;./so_long maps/map_valid_42.ber
+: 1742122841:0;clear
+: 1742122896:0;./so_long maps/map_valid_0.ber
+: 1742122964:0;./so_long maps/map_valid_rectangle.ber
+: 1742123033:0;./so_long maps/map_valid_big.ber
+: 1742123069:0;ls
+: 1742123081:0;./so_long maps/map_valid_0.ber
+: 1742123136:0;clear
+: 1742123138:0;ls
+: 1742123165:0;./so_long maps/map_valid_min.ber
+: 1742124034:0;cd 
+: 1742124052:0;unzip Medieval_Castle_Asset_Pack.zip
+: 1742124055:0;ls
+: 1742124062:0;clear
+: 1742124065:0;cd ~/so_long_prueba_42
+: 1742124440:0;cd assets
+: 1742124544:0;make
+: 1742124552:0;./so_long maps/map_valid_0.ber
+: 1742124578:0;cd assets
+: 1742124958:0;make
+: 1742124967:0;./so_long maps/map_valid_0.ber
+: 1742125003:0;./so_long maps/map_valid_min.ber
+: 1742125021:0;./so_long maps/map_valid_42.ber
+: 1742125050:0;./so_long maps/map_valid_0.ber
+: 1742125090:0;./so_long maps/map_valid_square.ber
+: 1742125151:0;clear
+: 1742125152:0;cd
+: 1742125208:0;cd assets
+: 1742125254:0;make
+: 1742125264:0;./so_long maps/map_valid_square.ber
+: 1742125665:0;./so_long maps/map_valid_rectangle.ber
+: 1742125731:0;./so_long maps/map_valid_1.ber
+: 1742126167:0;cd 
+: 1742126196:0;ls
+: 1742126199:0;cd assets
+: 1742126233:0;make
+: 1742126249:0;./so_long maps/map_valid_1.ber
+: 1742126473:0;cd assets
+: 1742126606:0;make
+: 1742126617:0;./so_long maps/map_valid_1.ber
+: 1742126711:0;cd
+: 1742126729:0;cd assets/
+: 1742127320:0;make
+: 1742127328:0;./so_long maps/map_valid_0.ber
+: 1742127435:0;cd assets
+: 1742127488:0;make
+: 1742127494:0;./so_long maps/map_valid_0.ber
+: 1742127661:0;c get_next_line
+: 1742127663:0;clear
+: 1742127664:0;cd
+: 1742127706:0;ls
+: 1742127709:0;cd assets
+: 1742127737:0;make
+: 1742127740:0;./so_long
+: 1742127750:0;./so_long maps/map_valid_0.ber
+: 1742128094:0;clear
+: 1742128095:0;ls
+: 1742128097:0;clear
+: 1742128100:0;cd
+: 1742128164:0;ls
+: 1742128168:0;make
+: 1742128176:0;./so_long maps/map_valid_0.ber
+: 1742128222:0;cd assets
+: 1742128257:0;mv imageedit_21_6822125183.png wall_upper_left.png
+: 1742128272:0;mv wall_upper_left.png /home/imarcej/so_long_prueba_42/assets
+: 1742128299:0;mv imageedit_21_9429999826.png wall_upper_right.png
+: 1742128308:0;cd ~/so_long_prueba_42
+: 1742128313:0;cd assets
+: 1742128384:0;ls
+: 1742128386:0;make
+: 1742128393:0;./so_long maps/map_valid_0.ber
+: 1742128536:0;cd
+: 1742128590:0;make
+: 1742128597:0;./so_long maps/map_valid_0.ber
+: 1742128761:0;clear
+: 1742128763:0;cd 
+: 1742129037:0;make
+: 1742129045:0;./so_long maps/map_valid_0.ber
+: 1742129126:0;cd
+: 1742129182:0;make
+: 1742129194:0;./so_long maps/map_valid_1.ber
+: 1742129458:0;cd
+: 1742129585:0;make
+: 1742129600:0;./so_long maps/map_valid_0.ber
+: 1742129612:0;./so_long maps/map_valid_1.ber
+: 1742129712:0;clear
+: 1742129713:0;ls
+: 1742129717:0;cd 
+: 1742129790:0;make
+: 1742129804:0;./so_long maps/map_valid_0.ber
+: 1742129825:0;./so_long maps/map_valid_1.ber
+: 1742129923:0;cd
+: 1742129983:0;make
+: 1742129994:0;./so_long maps/map_valid_1.ber
+: 1742130052:0;clear
+: 1742130053:0;cd 
+: 1742130127:0;make
+: 1742130129:0;ls
+: 1742130138:0;./so_long maps/map_valid_1.ber
+: 1742130159:0;clear
+: 1742130160:0;ls
+: 1742130250:0;cd
+: 1742130412:0;ls
+: 1742130415:0;make
+: 1742130425:0;./so_long maps/map_valid_1.ber
+: 1742130583:0;cd
+: 1742130713:0;cd assets
+: 1742130784:0;make
+: 1742130796:0;./so_long maps/map_valid_1.ber
+: 1742131271:0;clear
+: 1742131273:0;cd ~/Descargas
+: 1742132642:0;ls
+: 1742132648:0;make
+: 1742132655:0;./so_long maps/map_valid_0.ber
+: 1742132692:0;./so_long maps/map_valid_1.ber
+: 1742132786:0;./so_long maps/map_valid_42.ber
+: 1742132817:0;clear
+: 1742132996:0;cd
+: 1742133401:0;make
+: 1742133409:0;./so_long maps/map_valid_0.ber
+: 1742133671:0;./so_long maps/map_valid_2.ber
+: 1742133692:0;./so_long maps/map_valid_1.ber
+: 1742134899:0;cd ~/Descargas
+: 1742135709:0;./so_long maps/map_valid_0.ber
+: 1742135745:0;./so_long maps/map_valid_42.ber
+: 1742135809:0;cd ~/42-So-Long
+: 1742139517:0;make
+: 1742139521:0;clear
+: 1742139523:0;ls
+: 1742139539:0;clear
+: 1742139550:0;./so_long maps/map_valid_0.ber
+: 1742139723:0;cd
+: 1742139772:0;make
+: 1742139782:0;./so_long maps/map_valid_0.ber
+: 1742140001:0;cd
+: 1742140165:0;ls
+: 1742140168:0;make
+: 1742140175:0;./so_long maps/map_valid_0.ber
+: 1742140329:0;cd
+: 1742140672:0;make
+: 1742140678:0;./so_long maps/map_valid_0.ber
+: 1742140685:0;clear
+: 1742140692:0;cd assets
+: 1742140929:0;make
+: 1742140937:0;./so_long maps/map_valid_0.ber
+: 1742140966:0;cd ~/Descargas
+: 1742141202:0;make
+: 1742141210:0;./so_long maps/map_valid_0.ber
+: 1742142311:0;cd
+: 1742142326:0;cd assets
+: 1742142638:0;make
+: 1742142644:0;./so_long maps/map_valid_0.berº
+: 1742142647:0;./so_long maps/map_valid_0.ber
+: 1742142669:0;clear
+: 1742142781:0;./so_long maps/map_valid_0.ber
+: 1742142805:0;./so_long maps/map_valid_1.ber
+: 1742143046:0;cd assets
+: 1742143129:0;ls
+: 1742143131:0;make
+: 1742143138:0;./so_long maps/map_valid_0.ber
+: 1742143165:0;./so_long maps/map_valid_1.ber
+: 1742143597:0;./so_long maps/map_valid_42.ber
+: 1742143650:0;cd
+: 1742143884:0;ls
+: 1742143887:0;make
+: 1742143902:0;./so_long maps/map_valid_42.ber
+: 1742143928:0;clear
+: 1742143933:0;./so_long maps/map_valid_1.ber
+: 1742144325:0;CD
+: 1742144327:0;CD ~/Descargas
+: 1742144333:0;cd ~/Descargas
+: 1742144410:0;make
+: 1742144434:0;./so_long maps/map_valid_0.ber
+: 1742144888:0;clear
+: 1742144892:0;cd ~/Descargas
+: 1742144960:0;make 
+: 1742144965:0;ls
+: 1742144972:0;./so_long maps/map_valid_0.ber
+: 1742145176:0;cd
+: 1742145429:0;ls
+: 1742145432:0;make
+: 1742145438:0;./so_long maps/map_valid_0.ber
+: 1742145500:0;clear
+: 1742146419:0;cd ~/Descargas
+: 1742146469:0;make
+: 1742146471:0;./so_long
+: 1742146482:0;./so_long maps/map_valid_0.ber
+: 1742146527:0;cd
+: 1742146794:0;make
+: 1742146801:0;./so_long maps/map_valid_0.ber
+: 1742146825:0;./so_long maps/map_valid_42.ber
+: 1742146873:0;clear
+: 1742146884:0;./so_long maps/map_valid_1.ber
+: 1742146895:0;CLEAR
+: 1742146897:0;clear
+: 1742146999:0;cd ~/Descargas
+: 1742147028:0;make
+: 1742147034:0;./so_long maps/map_valid_0.ber
+: 1742147156:0;cd ~/Descargas
+: 1742147157:0;ls
+: 1742147167:0;mv imageedit_122_4207841910.png coll.png
+: 1742147176:0;mv coll.png /home/imarcej/so_long_prueba_42/assets
+: 1742147181:0;cd ~/so_long_prueba_42
+: 1742147183:0;make
+: 1742147189:0;./so_long maps/map_valid_0.ber
+: 1742147441:0;cd ~/Descargas
+: 1742147448:0;mv imageedit_125_6967591634.png coll.png
+: 1742147463:0;mv coll.png /home/imarcej/so_long_prueba_42/assets
+: 1742147466:0;cd ~/so_long_prueba_42
+: 1742147471:0;make
+: 1742147472:0;ls
+: 1742147480:0;./so_long maps/map_valid_0.ber
+: 1742147508:0;./so_long maps/map_valid_1.ber
+: 1742147521:0;./so_long maps/map_valid_2.ber
+: 1742147556:0;./so_long maps/map_valid_square.ber
+: 1742147565:0;./so_long maps/map_valid_rectangle.ber
+: 1742147688:0;clear
+: 1742147697:0;cd  ~/Descargas
+: 1742147745:0;./so_long maps/map_valid_rectangle.ber
+: 1742147983:0;clear
+: 1742148164:0;cd ~/Descargas
+: 1742148201:0;make
+: 1742148211:0;./so_long maps/map_valid_42.ber
+: 1742148517:0;cd ~/Descargas
+: 1742148549:0;make
+: 1742148555:0;./so_long maps/map_valid_0.ber
+: 1742148584:0;./so_long maps/map_valid_rectangle.ber
+: 1742149163:0;cd ~/Descargas
+: 1742149196:0;ls
+: 1742149216:0;./so_long maps/map_valid_0.ber
+: 1742149248:0;./so_long maps/map_valid_42.ber
+: 1742149451:0;cd ~/Descargas
+: 1742149584:0;make
+: 1742149592:0;./so_long maps/map_valid_0.ber
+: 1742149614:0;./so_long maps/map_valid_rectangle.ber
+: 1742149653:0;sudo ./so_long maps/map_valid_42.ber
+: 1742149669:0;./so_long maps/map_valid_42.ber
+: 1742149694:0;clear
+: 1742149708:0;./so_long maps/map_valid_square.ber
+: 1742149725:0;./so_long maps/map_valid_1.ber
+: 1742149743:0;./so_long maps/map_valid_2.ber
+: 1742149793:0;./so_long maps/map_valid_big.ber
+: 1742149867:0;./so_long maps/map_valid_min.ber
+: 1742149903:0;./so_long maps/map_valid_rectangle.ber
+: 1742149929:0;./so_long maps/map_valid_42.ber
+: 1742149951:0;.
+: 1742149954:0;cd src
+: 1742149963:0;make fclean
+: 1742149968:0;clear
+: 1742149970:0;ls
+: 1742149974:0;cd src
+: 1742150393:0;make
+: 1742150431:0;./so_long maps/map_valid_0.ber
+: 1742150447:0;clear
+: 1742150449:0;ls
+: 1742150463:0;./so_long maps/map_valid_1.ber
+: 1742150475:0;./so_long maps/map_valid_2.ber
+: 1742150503:0;clear
+: 1742150508:0;make fclean
+: 1742150521:0;nvim Makefile
+: 1742150570:0;ls
+: 1742150573:0;cd ..
+: 1742150589:0;ls
+: 1742150603:0;make fclean
+: 1742150605:0;clear
+: 1742150610:0;git add .
