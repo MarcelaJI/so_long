@@ -33,7 +33,7 @@ static void	floodfill(t_game *game, int p_x, int p_y)
 	floodfill(game, p_x + 1, p_y);
 }
 
-void	findElementPosition(t_game *game, char c, t_pos **pos)
+void	find_element_position(t_game *game, char c, t_pos **pos)
 {
 	int		y;
 	int		x;
@@ -76,7 +76,7 @@ static void	get_visited_arr(t_game *game)
 		visited[y] = ft_calloc(row_len, sizeof(char));
 		if (!visited[y])
 		{
-			freeGameArrOnError(&visited, y);
+			free_game_on_error(&visited, y);
 			return ;
 		}
 		y++;

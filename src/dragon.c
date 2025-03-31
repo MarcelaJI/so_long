@@ -29,7 +29,7 @@ static void	move_dragon(t_game *game, int x_new, int y_new)
 		game->d->pos->x = x_new;
 		game->d->pos->y = y_new;
 		game->d->collect_count++;
-		ft_printf("Steps: %d\n", game->d->collect_count);
+		ft_printf("Moves: %d\n", game->d->collect_count);
 		render_dynamic_elements(game);
 	}
 }

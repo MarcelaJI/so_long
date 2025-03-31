@@ -51,7 +51,7 @@ static int	map_height(char *map_path)
 	return (height);
 }
 
-static void	loadMapData(char ***arr, char *map_path)
+static void	load_map_data(char ***arr, char *map_path)
 {
 	int		map_fd;
 	int		i;
@@ -64,7 +64,7 @@ static void	loadMapData(char ***arr, char *map_path)
 	{
 		(*arr)[i] = ft_strtrim(line, "\n\r");
 		if ((*arr)[i] == NULL)
-			freeGameArrOnError(arr, i);
+			free_game_on_error(arr, i);
 		free(line);
 		line = get_next_line(map_fd);
 		i++;
@@ -85,7 +85,7 @@ static char	**get_map_arr(char *map_path)
 	if (!arr)
 		return (NULL);
 	arr[height] = NULL;
-	loadMapData(&arr, map_path);
+	load_map_data(&arr, map_path);
 	return (arr);
 }
 
@@ -102,8 +102,8 @@ int	load_map(char *map_path, t_game *game)
 		return (0);
 	if (!validate_game_elements(game))
 		return (0);
-	findElementPosition(game, 'P', &(game->d->pos));
-	findElementPosition(game, 'E', &(game->e_pos));
+	find_element_position(game, 'P', &(game->d->pos));
+	find_element_position(game, 'E', &(game->e_pos));
 	if (!check_element_accessibility(game))
 		return (0);
 	game->width = game->cols * TILE_SIZE;

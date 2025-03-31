@@ -82,7 +82,7 @@ static void	initial_render(t_game *game)
 		x = 0;
 		while (map_arr[y][x])
 		{
-			if (checkWall(game, x, y))
+			if (check_wall(game, x, y))
 				print_walls(game, x * TILE_SIZE, y * TILE_SIZE);
 			else if (map_arr[y][x] == '1' || map_arr[y][x] == 'C')
 				print_obst_and_colls(game, x * TILE_SIZE, y * TILE_SIZE);

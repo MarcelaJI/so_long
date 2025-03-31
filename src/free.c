@@ -45,7 +45,7 @@ void	free_game(t_game **game)
 	*game = NULL;
 }
 
-void	*freeGameArrOnError(char ***arr, size_t iterator)
+void	*free_game_on_error(char ***arr, size_t iterator)
 {
 	while (iterator > 0)
 		free((*arr)[--iterator]);

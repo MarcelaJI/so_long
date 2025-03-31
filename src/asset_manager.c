@@ -10,14 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "../includes/so_long.h"
 
 static int	load_player_sprites(t_game *game)
 {
-	if (!import_image(game, &(game->d->dragon_right), "./assets/player_right.png"))
+	if (!import_image(game, &(game->d->dragon_right),
+			"./assets/player_right.png"))
 		return (0);
-	if (!import_image(game, &(game->d->dragon_left), "./assets/player_left.png"))
+	if (!import_image(game, &(game->d->dragon_left),
+			"./assets/player_left.png"))
 		return (0);
 	return (1);
 }
@@ -88,24 +89,4 @@ int	load_game_images(t_game *game)
 		return (0);
 	game->assets->e_curr_state = game->assets->exit_closed;
 	return (1);
-}
-
-int	import_image(t_game *game, mlx_image_t **img, char *img_path)
-{
-	mlx_texture_t	*texture;
-
-	texture = mlx_load_png(img_path);
-	if (!texture)
-		return (print_error("image not found"), 0);
-	*img = mlx_texture_to_image(game->mlx, texture);
-	if (!(*img))
-		return (print_error("error while mounting image"), 0);
-	mlx_delete_texture(texture);
-	return (1);
-}
-
-void	render_image(t_game *game, mlx_image_t *img, int32_t x, int32_t y)
-{
-	mlx_resize_image(img, TILE_SIZE, TILE_SIZE);
-	mlx_image_to_window(game->mlx, img, x, y);
 }

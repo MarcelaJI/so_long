@@ -12,14 +12,14 @@
 
 #include "../includes/so_long.h"
 
-void	handleKeyPress(struct mlx_key_data keydata, void *param)
+void	handle_key_press(struct mlx_key_data keydata, void *param)
 {
 	t_game	*game;
 
 	game = (t_game *)param;
 	if (keydata.key == MLX_KEY_ESCAPE)
 	{
-		ft_printf("%sExit by pressing escape. \n%s", MAGENTA, RESET);
+		ft_printf("%sPress ESC to exit. \n%s", MAGENTA, RESET);
 		close_game(game);
 	}
 	if (keydata.action == MLX_PRESS)
@@ -28,7 +28,7 @@ void	handleKeyPress(struct mlx_key_data keydata, void *param)
 		dragon_moves_hold(keydata, game);
 }
 
-void	handleCloseEvent(void *param)
+void	handle_close_event(void *param)
 {
 	t_game	*game;
 
@@ -38,6 +38,6 @@ void	handleCloseEvent(void *param)
 		print_error("game of mlx is NULL");
 		return ;
 	}
-	ft_printf("%sExit by clicking close window button. \n%s", MAGENTA, RESET);
+	ft_printf("%sPress ✖ to rage quit! 🎮🔥 \n%s", MAGENTA, RESET);
 	close_game(game);
 }

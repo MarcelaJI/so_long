@@ -40,7 +40,7 @@ void	game_init(t_game **game)
 	(*game)->d->collect_count = 0;
 }
 
-int	checkWall(t_game *game, int x, int y)
+int	check_wall(t_game *game, int x, int y)
 {
 	if (x == 0
 		|| y == 0
