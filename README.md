@@ -44,6 +44,7 @@ Copiar
 ./so_long maps/ejemplo.ber
 Reemplaza maps/ejemplo.ber con el nombre del mapa que desees jugar.
 
+
 🧑‍💻 Autora
 👩‍💻 Marcela Jimenez
 
