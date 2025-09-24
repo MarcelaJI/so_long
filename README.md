@@ -39,18 +39,21 @@ make
 ▶️ Ejecución
 Para iniciar el juego, usa:
 
-bash
-Copiar
+```
 ./so_long maps/ejemplo.ber
 Reemplaza maps/ejemplo.ber con el nombre del mapa que desees jugar.
-
+```
 
 🧑‍💻 Autora
-👩‍💻 Marcela Jimenez
+Marcela Jimenez
+
+---
 
 📛 Login: ingjimen
 
+---
 💡 Notas
-El juego muestra mensajes en la terminal sobre los movimientos del dragón y el estado del juego.
 
-Si el mapa no es válido o falta algún elemento obligatorio (P, C, E), se mostrará un mensaje de error.
+- El juego muestra mensajes en la terminal sobre los movimientos del dragón y el estado del juego.
+
+- Si el mapa no es válido o falta algún elemento obligatorio (P, C, E), se mostrará un mensaje de error.
